@@ -15,5 +15,11 @@ public class Main
 		
 		test.check("nathan", "1234");
 		
+		test.check("Julia", "5000");
+		
+		test.check("Grace", "abc");
+		
+		test.check("Nathan", "abc");
+		
 	}
 }

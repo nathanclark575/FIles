@@ -83,8 +83,13 @@ public class Test
 			if (userID.equals(parts[0]) && password.equals(parts[1]))
 			{
 				System.out.println("Correct");
+				return;
 			}
+
 		}
+		
+		System.out.println("Incorrect");
+		return;
 	}
 	
 }
